@@ -1,0 +1,419 @@
+body{
+    background-color: grey;
+}
+
+@media all and (max-width: 480px) {
+    .outerDiv{
+        background-color: grey;
+    
+    }
+    .innerDiv{
+        width:90%;
+        margin:0 auto;
+    } 
+   .nameDiv{
+    background-image:url('../styles/assets/codingMac.jpg');
+    background-size: cover;
+    height:400px;
+    border-radius: 30px;
+    box-shadow: 0 8px 6px -6px black;
+
+   }
+    .headerName{
+        text-align: right;
+        font-family: sans-serif;
+        font-size: bolder;
+        position: relative;
+        top:5%;
+        right:0.5em;
+    }
+    .aboutMe{
+        color:white;
+        width: 80%;
+        text-align: center;
+        margin:0 auto;
+        position: relative;
+        top:20px;
+
+    }
+/* skills */
+.skillDiv{
+    background-color: rgba(135, 207, 235, 0.342);
+    border-radius: 30px;
+    margin:0 auto;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+#skillset{
+    position: relative;
+    top:25%;
+    width:90%;
+    list-style: none;
+    columns: 2;
+    font-size: 1.2em;
+    margin:0 auto;
+    
+}
+
+/* projects */
+
+.modalDiv{
+   
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 5px solid red
+}
+.imagDiv{
+    border: 5px solid rgb(209, 22, 169);
+    width:75%;
+    margin:0 auto;
+}
+.modalDivIMG{
+    width:100%;
+    border: 5px solid rgb(0, 255, 0)
+}
+
+
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .outerDiv{
+        background-color: grey;
+    
+    }
+    .innerDiv{
+        width:90%;
+        margin:0 auto;
+    } 
+   .nameDiv{
+    background-image:url('../styles/assets/codingMac.jpg');
+    background-size: cover;
+    height:400px;
+    border-radius: 30px;
+
+   }
+    .headerName{
+        text-align: right;
+        font-family: sans-serif;
+        font-size: bolder;
+        position: relative;
+        top:5%;
+        right:0.5em;
+    }
+    .aboutMe{
+        color:white;
+        width: 55%;
+        font-size: 3.2vw;
+        text-align: left;
+        position: relative;
+        top:20px;
+        left:20px;
+
+    }
+    /* skills */
+.skillDiv{
+    background-color: rgba(135, 207, 235, 0.342);
+    border-radius: 30px;
+    margin:0 auto;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+#skillset{
+    position: relative;
+    top:25%;
+    width:70%;
+    list-style: none;
+    columns: 2;
+    font-size: 1.5em;
+    margin:0 auto;
+    
+}
+/* projects */
+
+.modalDiv{
+   
+    width:90%;
+    margin:0 auto;
+    margin-top: 20px;
+    border: 5px solid red;
+    border-radius: 30px;
+}
+.imagDiv{
+    border: 5px solid rgb(209, 22, 169);
+    width:75%;
+    margin:0 auto;
+}
+.modalDivIMG{
+    width:100%;
+    border: 5px solid rgb(0, 255, 0)
+}
+
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .outerDiv{
+        background-color: grey;
+    
+    }
+    .innerDiv{
+        width:90%;
+        margin:0 auto;
+    } 
+   .nameDiv{
+    background-image:url('../styles/assets/codingMac.jpg');
+    background-size: cover;
+    height:600px;
+    border-radius: 30px;
+
+   }
+    .headerName{
+        text-align: right;
+        font-family: sans-serif;
+        font-size: bolder;
+        position: relative;
+        top:5%;
+        right:0.5em;
+    }
+    .aboutMe{
+        color:white;
+        width: 55%;
+        font-size: 3.4vw;
+        text-align: left;
+        position: relative;
+        top:20px;
+        left:20px;
+
+    }
+     /* skills */
+.skillDiv{
+    background-color: rgba(135, 207, 235, 0.342);
+    border-radius: 30px;
+    margin:0 auto;
+    height: 600px;
+    margin-top: 20px;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+#skillset{
+    position: relative;
+    top:25%;
+    width:80%;
+    list-style: none;
+    columns: 2;
+    font-size: 3.5em;
+    margin:0 auto;
+    
+}
+/* projects */
+.projectDiv{
+    border: 5px solid green;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+    
+}
+.modalDiv{
+    width:33%;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    min-height: 350px;
+    border: 5px solid red;
+}
+.imagDiv{
+    border: 5px solid rgb(209, 22, 169);
+    width:75%;
+    margin:0 auto;
+}
+.modalDivIMG{
+    width:100%;
+    border: 5px solid rgb(0, 255, 0)
+}
+
+
+
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px){
+    .outerDiv{
+        background-color: grey;
+    
+    }
+    .innerDiv{
+        width:90%;
+        margin:0 auto;
+    } 
+   .nameDiv{
+    background-image:url('../styles/assets/codingMac.jpg');
+    background-size: cover;
+    height:600px;
+    border-radius: 30px;
+
+   }
+    .headerName{
+        text-align: right;
+        font-family: sans-serif;
+        font-size: bolder;
+        position: relative;
+        top:5%;
+        right:0.5em;
+    }
+    .aboutMe{
+        color:white;
+        width: 55%;
+        font-size: 3.2vw;
+        text-align: left;
+        position: relative;
+        top:20px;
+        left:20px;
+
+    }
+     /* skills */
+     .skillDiv{
+        background-color: rgba(135, 207, 235, 0.342);
+        border-radius: 30px;
+        margin:0 auto;
+        height: 600px;
+        margin-top: 20px;
+        box-shadow: 0 8px 6px -6px black;
+    
+    }
+    #skillset{
+        position: relative;
+        top:25%;
+        width:80%;
+        list-style: none;
+        columns: 2;
+        font-size: 3.5em;
+        margin:0 auto;
+        
+    }
+    .projectDiv{
+        border: 5px solid green;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       flex-flow: row wrap;
+        
+    }
+    .modalDiv{
+        width:33%;
+        margin:0 auto;
+        margin-top: 20px;
+        border-radius: 30px;
+        min-height: 350px;
+        border: 5px solid red;
+    }
+    .imagDiv{
+        border: 5px solid rgb(209, 22, 169);
+        width:75%;
+        margin:0 auto;
+    }
+    .modalDivIMG{
+        width:100%;
+        border: 5px solid rgb(0, 255, 0)
+    }
+    
+    
+    
+
+
+}
+
+@media all and (min-width: 1280px) and (max-width: 2200px){
+    .outerDiv{
+        background-color: grey;
+    
+    }
+    .innerDiv{
+        width:90%;
+        margin:0 auto;
+    } 
+   .nameDiv{
+    background-image:url('../styles/assets/codingMac.jpg');
+    background-size: cover;
+    height:800px;
+    border-radius: 30px;
+
+   }
+    .headerName{
+        text-align: right;
+        font-family: sans-serif;
+        font-size: bolder;
+        position: relative;
+        top:5%;
+        right:0.5em;
+    }
+    .aboutMe{
+        color:white;
+        width: 70%;
+        font-size: 3.2vw;
+        text-align: left;
+        position: relative;
+        top:20px;
+        left:20px;
+
+    }
+     /* skills */
+     .skillDiv{
+        background-color: rgba(135, 207, 235, 0.342);
+        border-radius: 30px;
+        margin:0 auto;
+        height: 600px;
+        margin-top: 20px;
+        box-shadow: 0 8px 6px -6px black;
+    
+    }
+    #skillset{
+        position: relative;
+        top:25%;
+        width:80%;
+        list-style: none;
+        columns: 2;
+        font-size: 3.5em;
+        margin:0 auto;
+        
+    }
+.projectDiv{
+    border: 5px solid green;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+    
+}
+.modalDiv{
+    width:33%;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    min-height: 350px;
+    border: 5px solid red;
+}
+.imagDiv{
+    border: 5px solid rgb(209, 22, 169);
+    width:75%;
+    margin:0 auto;
+}
+.modalDivIMG{
+    width:100%;
+    border: 5px solid rgb(0, 255, 0)
+}
+
+
+
+}
