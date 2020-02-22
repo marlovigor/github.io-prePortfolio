@@ -409,7 +409,7 @@ body{
     margin-top: 20px;
     border-radius: 30px;
     min-height: 350px;
-    border: 5px solid red;
+    border: 5px solid rgb(99, 95, 95);
 }
 .imagDiv{
     /* border: 5px solid rgb(209, 22, 169); */
