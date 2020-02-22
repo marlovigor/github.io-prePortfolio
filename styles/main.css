@@ -39,12 +39,13 @@ body{
     }
 /* skills */
 .skillDiv{
-    background-color: rgba(135, 207, 235, 0.342);
+    /* background-color: rgba(135, 207, 235, 0.342); */
     border-radius: 30px;
     margin:0 auto;
     height: 200px;
     margin-top: 20px;
     box-shadow: 0 8px 6px -6px black;
+    border: 5px solid rgb(99, 95, 95);
 
 }
 #skillset{
@@ -69,13 +70,13 @@ body{
     border: 5px solid rgb(99, 95, 95); 
 }
 .imagDiv{
-    border: 5px solid rgb(209, 22, 169);
+    /* border: 5px solid rgb(209, 22, 169); */
     width:75%;
     margin:0 auto;
 }
 .modalDivIMG{
     width:100%;
-    border: 5px solid rgb(0, 255, 0)
+    /* border: 5px solid rgb(0, 255, 0) */
 }
 
 
@@ -148,13 +149,13 @@ body{
     border-radius: 30px;
 }
 .imagDiv{
-    border: 5px solid rgb(209, 22, 169);
+    /* border: 5px solid rgb(209, 22, 169); */
     width:75%;
     margin:0 auto;
 }
 .modalDivIMG{
     width:100%;
-    border: 5px solid rgb(0, 255, 0)
+    /* border: 5px solid rgb(0, 255, 0) */
 }
 
 
@@ -235,14 +236,14 @@ body{
     border: 5px solid rgb(99, 95, 95);
 }
 .imagDiv{
-    /* border: 5px solid rgb(209, 22, 169); */
+    border: 5px solid rgb(209, 22, 169);
     border: 5px solid rgb(99, 95, 95);
     width:75%;
     margin:0 auto;
 }
 .modalDivIMG{
     width:100%;
-    border: 5px solid rgb(0, 255, 0)
+    /* border: 5px solid rgb(0, 255, 0) */
 }
 
 
@@ -323,13 +324,13 @@ body{
         border: 5px solid rgb(99, 95, 95);
     }
     .imagDiv{
-        border: 5px solid rgb(209, 22, 169);
+        /* border: 5px solid rgb(209, 22, 169); */
         width:75%;
         margin:0 auto;
     }
     .modalDivIMG{
         width:100%;
-        border: 5px solid rgb(0, 255, 0)
+        /* border: 5px solid rgb(0, 255, 0) */
     }
     
     
@@ -411,13 +412,13 @@ body{
     border: 5px solid red;
 }
 .imagDiv{
-    border: 5px solid rgb(209, 22, 169);
+    /* border: 5px solid rgb(209, 22, 169); */
     width:75%;
     margin:0 auto;
 }
 .modalDivIMG{
     width:100%;
-    border: 5px solid rgb(0, 255, 0)
+    /* border: 5px solid rgb(0, 255, 0) */
 }
 
 
