@@ -74,7 +74,7 @@ h1,h2,h3,p{
 #skillset{
     position: relative;
     top:25%;
-    width:90%;
+    min-width:80%;
     color:white;
     list-style: none;
     columns: 2;
@@ -164,7 +164,7 @@ a{
     }
     .aboutMe{
         color:white;
-        width: 55%;
+        max-width:55%;
         font-size: 3.2vw;
         text-align: left;
         position: relative;
@@ -207,7 +207,7 @@ a{
 #skillset{
     position: relative;
     top:25%;
-    width:70%;
+    min-width:70%;
     color:white;
 
     list-style: none;
