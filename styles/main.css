@@ -12,10 +12,9 @@ h1,h2,h3,p{
         margin:0 auto;
     } 
    .nameDiv{
-    background-image:url('../styles/assets/codingMac.jpg');
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
     background-size: cover;
     border: 5px solid rgb(255, 255, 255);
-    height:400px;
     padding: 15px;
     border-radius: 30px;
     box-shadow: 0 8px 6px -6px black;
@@ -32,10 +31,11 @@ h1,h2,h3,p{
     .aboutMe{
         color:white;
         width: 80%;
+        font-size: 5,5vw;
         text-align: center;
         margin:0 auto;
         position: relative;
-        top:20px;
+        top:5px;
 
     }
 /* skills */
@@ -147,7 +147,7 @@ a{
         margin:0 auto;
     } 
    .nameDiv{
-    background-image:url('../styles/assets/codingMac.jpg');
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
     background-size: cover;
     border: 5px solid rgb(255, 255, 255);
     height:400px;
@@ -281,7 +281,7 @@ a{
         margin:0 auto;
     } 
    .nameDiv{
-    background-image:url('../styles/assets/codingMac.jpg');
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
     background-size: cover;
     height:600px;
     border: 5px solid rgb(99, 95, 95);
@@ -425,7 +425,7 @@ a{
         margin:0 auto;
     } 
    .nameDiv{
-    background-image:url('../styles/assets/codingMac.jpg');
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
     background-size: cover;
     height:600px;
     border: 5px solid rgb(255, 253, 253);
@@ -566,7 +566,7 @@ a{
         margin:0 auto;
     } 
    .nameDiv{
-    background-image:url('../styles/assets/codingMac.jpg');
+    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
     background-size: cover;
     height:800px;
     border: 5px solid rgb(99, 95, 95);
@@ -579,13 +579,14 @@ a{
         font-size: bolder;
         position: relative;
         top:5%;
-        color: black;
+        color: white;
         font-size: 3.2vw;
         right:0.5em;
     }
     .aboutMe{
         color:white;
         width: 70%;
+        height: 20%;
         font-size: 3.2vw;
         text-align: left;
         position: relative;
