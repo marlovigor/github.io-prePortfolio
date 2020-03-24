@@ -1,414 +1,497 @@
+
+
 body{
-    background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/6987242/600/400/m2/fpnw/wm0/2-.jpg?1568806364&s=529a9e10493876cb0300b46609b2dbba")
+    background-image: url('../../styles/assets/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+ 
 }
 h1,h2,h3,p{
     color:white;
 }
+#header{
+    position: relative;
+    margin-top: 50px;
+    width:100%;
+    /* border-style: solid;
+    border-color: rgb(200, 255, 0); */
 
-@media all and (max-width: 480px) {
-
-    .innerDiv{
-        width:90%;
-        margin:0 auto;
-    } 
-   .nameDiv{
-    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
-    background-size: cover;
-    border: 5px solid rgb(255, 255, 255);
-    padding: 15px;
-    border-radius: 30px;
-    box-shadow: 0 8px 6px -6px black;
-
-   }
-    .headerName{
-        text-align: right;
-        font-family: sans-serif;
-        font-size: bolder;
-        position: relative;
-        top:5%;
-        right:0.5em;
-    }
-    .aboutMe{
-        color:white;
-        width: 80%;
-        font-size: 5,5vw;
-        text-align: center;
-        margin:0 auto;
-        position: relative;
-        top:5px;
-
-    }
-/* skills */
-.outerSubDiv{
-    background-color: darkgrey;
+}
+.logo{
+    /* border-style: solid;
+    border-color: rgb(55, 0, 255); */
     width:80%;
-    border-radius: 10px;
-    height: 60px;
-    background-color: rgb(26, 23, 23);
-    margin:0 auto;
-}
+    margin:0 auto
 
-.innerSubDiv{
-    width:40%;
+
+}
+#main{
+    position: fixed; 
+    overflow-y: scroll;
+    border-style: solid;
+  /* border-color: red; */
+    top: 0; right: 0; bottom: 0; left: 0; 
+
+}
+.inner{
     position: relative;
-    top:20%;
-    border-radius: 10px;
-    background-color: rgba(58, 53, 53, 0.808);
-    margin:0 auto;
-}
-.itemListed{
-    color:white;
-    text-align: center;
-}
-.skillDiv{
-    /* background-color: rgba(135, 207, 235, 0.342); */
-    border-radius: 30px;
-    margin:0 auto;
-    height: 200px;
-    background-color: rgba(58, 53, 53, 0.808);
-    margin-top: 20px;
-    box-shadow: 0 8px 6px -6px black;
-    border: 5px solid rgb(99, 95, 95);
-
-}
-#skillset{
-    position: relative;
-    top:25%;
-    min-width:80%;
-    color:white;
-    list-style: none;
-    columns: 2;
-    font-size: 1.2em;
-    margin:0 auto;
-    
-}
-
-/* projects */
-
-.modalDiv{
-   
+    top:130px;
+    /* border-style: solid;
+    border-color: rgb(21, 255, 0); */
     width:90%;
     margin:0 auto;
-    margin-top: 20px;
-    border-radius: 30px;
-    padding: 8px;
-    background-color: rgba(58, 53, 53, 0.808);
-    border: 5px solid rgb(99, 95, 95); 
-}
-.imagDiv{
-    /* border: 5px solid rgb(209, 22, 169); */
-    width:75%;
-    margin:0 auto;
-}
-.modalDivIMG{
-    width:100%;
-    /* border: 5px solid rgb(0, 255, 0) */
-}
-  .linkDiv{
-    margin:0 auto;
-    position: relative;
-    left:10%;
-}
-
-a{
-    color: white;
-}
-.contactDiv{
-    width:80%;
-     /* border: 5px solid rgb(0, 255, 0); */
-     margin:0 auto;
-     margin-top: 10px;
 
 }
-.innerContactDiv{
-    margin:0 auto;
-     /* border: 5px solid rgb(255, 102, 0) */
+#abstract-img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
-
-.ContactSection ,li{
-    margin:0 auto;
-    color:white;
+ul{
     list-style: none;
-   
-      
 }
 
 
 
+@media all and (max-width: 480px) {
+    .inner{
+        position: relative;
+        top:0px;
+        width:80%;
+        margin:0 auto;
+    
+    }
+
+
+    .name-Title{
+        /* font-weight: 700;
+        color: #FFF;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: inherit;
+    
+
+    }
+    .name-Title span{
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+    .aboutme{
+        background-color: rgba(255, 255, 255, 0.911);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(2, 2, 2);
+    margin:0;
+    padding:1.8rem;
+    }
+    .content{
+        background-color: aliceblue;
+        width:100%;
+        min-height: 5rem;
+        /* padding:0.033rem; */
+    }
+    /* next section */
+    #two{
+        /* border-style: solid;
+        border-color: rgb(218, 27, 59); */
+        width:100%;
+        height: 10%;
+        display: inline-block;
+        background: #1e1f23;
+        padding:2px;
+       
+    }
+
+    #inner-two{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        top: 15%;
+        /* background: #121315; */
+        
+      
+  
+    }
+ h2{
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 4.2vw;
+    }
+    /* skills */
+    .content-skills{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(255, 255, 255, 0.911);
+
+    }
+
+     img{
+        position: relative;
+        top:15%;
+         width:15%;
+         columns: 2;
+         margin:0px;
+     }
+     .listmain{
+         position: relative;
+         top:15%;
+         list-style: none;
+         columns: 2;
+         margin: 0 auto;
+         width: 80%;
+         font-size: 3.2vw;
+
+     }
+
+     .listmain > li{
+         margin-top: 3px;
+
+     }
+  /*  */
+
+  .image > img{
+      width:100%;
+  }
+  #three{
+      padding: 5px;
+    width:100%;
+    /* border-style: solid;
+    border-color: rgb(30, 255, 0); */
+}
+.spotlight{
+    margin:0 auto;
+    width:80%;
+    padding:10px;
+    margin-bottom: 20px;
+
+    
+
+}
+ .inner > h3{
+     font-size: 3.5vw;
+     
+ }
+
+ .inner >p{
+    font-size: 2.9vw;
+ }
+ .btn-primary{
+    font-size: 1.9vw;
+
+ }
+ .spotlight:nth-child(odd){
+    background-color: rgba(5, 3, 3, 0.719);
+}
+.spotlight:nth-child(even){
+    background-color: rgba(66, 61, 61, 0.719);
+}
+ 
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-    .outerDiv{
-        /* background-color: blue; */
+    .inner{
+        position: relative;
+        top:0px;
+
+        width:80%;
+        margin:0 auto;
     
     }
-    .innerDiv{
-        width:90%;
-        margin:0 auto;
-    } 
-   .nameDiv{
-    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
-    background-size: cover;
-    border: 5px solid rgb(255, 255, 255);
-    height:400px;
-    border-radius: 30px;
 
-   }
-    .headerName{
-        text-align: right;
-        font-family: sans-serif;
-        font-size: bolder;
-        position: relative;
-        top:5%;
-        right:0.5em;
+
+    .name-Title{
+        /* font-weight: 700;
+        color: #FFF;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: inherit;
+
     }
-    .aboutMe{
-        color:white;
-        max-width:55%;
-        font-size: 2.8vw;
-        text-align: left;
-        position: relative;
-        top:-5px;
-        left:20px;
+    .name-Title span{
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .aboutme{
+        background-color: rgba(255, 255, 255, 0.911);
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(2, 2, 2);
+    margin:0;
+    padding:1.8rem;
+    }
+    .content{
+   
+        width:100%;
+        min-height: 5rem;
+        /* padding:0.033rem; */
+    }
 
+     /* next section */
+     #two{
+        width:100%;
+        height: 10%;
+        display: inline-block;
+        background: #1e1f23;
+        padding:2px;
+       
+    }
+
+    #inner-two{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        top: 15%;
+        /* background: #121315; */
+
+      
+  
+    }
+ h2{
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 4.2vw;
     }
     /* skills */
-    .outerSubDiv{
-        background-color: darkgrey;
-        width:80%;
-        border-radius: 10px;
-        height: 60px;
-        background-color: rgb(26, 23, 23);
-        margin:0 auto;
+    .content-skills{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(255, 255, 255, 0.911);
+
     }
-    
-    .innerSubDiv{
-        width:40%;
+
+     img{
         position: relative;
-        top:20%;
-        border-radius: 10px;
-        background-color: rgba(58, 53, 53, 0.808);
-        margin:0 auto;
-    }
-    .itemListed{
-        color:white;
-        text-align: center;
-    }
-.skillDiv{
-    border: 5px solid rgb(99, 95, 95);
-    border-radius: 30px;
-    background-color: rgba(58, 53, 53, 0.808);
-    margin:0 auto;
-    height: 200px;
-    margin-top: 20px;
-    box-shadow: 0 8px 6px -6px black;
+        top:15%;
+         width:15%;
+         columns: 2;
+         margin:0px;
+     }
+     .listmain{
+         position: relative;
+         top:15%;
+         list-style: none;
+         columns: 2;
+         margin: 0 auto;
+         width: 80%;
+         font-size: 3.2vw;
 
-}
-#skillset{
-    position: relative;
-    top:25%;
-    min-width:70%;
-    color:white;
+     }
 
-    list-style: none;
-    columns: 2;
-    font-size: 1.5em;
-    margin:0 auto;
-    
-}
-/* projects */
+     .listmain > li{
+         margin-top: 3px;
 
-.modalDiv{
-   
-    width:90%;
-    margin:0 auto;
-    margin-top: 20px;
-    padding: 8px;
-    background-color: rgba(58, 53, 53, 0.808);
-    border: 5px solid rgb(99, 95, 95); 
-    border-radius: 30px;
-}
-.imagDiv{
-    /* border: 5px solid rgb(209, 22, 169); */
-    width:75%;
-    margin:0 auto;
-}
-.modalDivIMG{
+     }
+      /*  */
+
+  .image > img{
     width:100%;
-    /* border: 5px solid rgb(0, 255, 0) */
 }
-
-
-
-.linkDiv{
-    margin:0 auto;
-    position: relative;
-    left:10%;
+#three{
+    padding: 5px;
+  width:100%;
+  /* border-style: solid;
+  border-color: rgb(30, 255, 0); */
 }
+.spotlight{
+  margin:0 auto;
+  width:80%;
+  padding:10px;
+  margin-bottom: 20px;
 
-a{
-    color: white;
-}
-.contactDiv{
-    width:80%;
-     /* border: 5px solid rgb(0, 255, 0); */
-     margin:0 auto;
-     margin-top: 10px;
+  
 
 }
-.innerContactDiv{
-    margin:0 auto;
-     /* border: 5px solid rgb(255, 102, 0) */
+.inner > h3{
+   font-size: 3.5vw;
 }
+.inner >p{
+  font-size: 2.9vw;
+}
+.btn-primary{
+  font-size: 1.9vw;
 
-.ContactSection ,li{
-    margin:0 auto;
-    color:white;
-    list-style: none;
-   
-      
 }
+.spotlight:nth-child(odd){
+    background-color: rgba(5, 3, 3, 0.719);
+}
+.spotlight:nth-child(even){
+    background-color: rgba(66, 61, 61, 0.719);
+}
+ 
+  
+
 
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    .outerDiv{
-        /* background-color: grey; */
-    
-    }
-    .innerDiv{
+    .inner{
+        position: relative;
+        top:0px;
         width:90%;
         margin:0 auto;
-    } 
-   .nameDiv{
-    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
-    background-size: cover;
-    height:600px;
-    border: 5px solid rgb(99, 95, 95);
-    border-radius: 30px;
-
-   }
-    .headerName{
-        text-align: right;
-        font-family: sans-serif;
-        font-size: bolder;
-        position: relative;
-        top:5%;
-        right:0.5em;
-    }
-    .aboutMe{
-        color:white;
-        width: 55%;
-        font-size: 2.9vw;
-        text-align: left;
-        position: relative;
-        top:20px;
-        left:20px;
-
-    }
-     /* skills */
-     .outerSubDiv{
-        background-color: darkgrey;
-        width:80%;
-     
-        border-radius: 10px;
-        height: 60px;
-        background-color: rgb(26, 23, 23);
-        margin:0 auto;
-    }
     
-    .innerSubDiv{
-        width:40%;
-        position: relative;
-        top:20%;
-        border-radius: 10px;
-        background-color: rgba(58, 53, 53, 0.808);
-        margin:0 auto;
     }
-    .itemListed{
-        color:white;
+  
+
+    .name-Title{
+        /* font-weight: 700;
+        color: #FFF;
         text-align: center;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: inherit;
+    
+
     }
-.skillDiv{
-    border: 5px solid rgb(99, 95, 95);
-    border-radius: 30px;
-    margin:0 auto;
-    height: 600px;
-    background-color: rgba(58, 53, 53, 0.808);
-    margin-top: 20px;
-    box-shadow: 0 8px 6px -6px black;
+    .name-Title span{
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .aboutme{
+        background-color: rgba(255, 255, 255, 0.911);
 
-}
-#skillset{
-    position: relative;
-    top:25%;
-    width:80%;
-    list-style: none;
-    color:white;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(2, 2, 2);
+    margin:0;
+    padding:1.8rem;
+    }
+    .content{
+        width:100%;
+        min-height: 5rem;
+        /* padding:0.033rem; */
+    }
+      /* next section */
+    #two{
 
-    columns: 2;
-    font-size: 3.5em;
-    margin:0 auto;
-    
-}
-/* projects */
-.projectDiv{
-    border: 5px solid rgba(99, 95, 95, 0.007);
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-   justify-content: center;
-   flex-flow: row wrap;
-    
-}
-.modalDiv{
-    width:33%;
-    margin:0 auto;
-    margin-top: 20px;
-    border-radius: 30px;
-    padding: 8px;
-    min-height: 350px;
-    background-color: rgba(58, 53, 53, 0.808);
-    border: 5px solid rgb(99, 95, 95); 
-}
-.imagDiv{
-    border: 5px solid rgb(209, 22, 169);
-    border: 5px solid rgb(99, 95, 95);
-    width:75%;
-    margin:0 auto;
-}
-.modalDivIMG{
-    width:100%;
-    /* border: 5px solid rgb(0, 255, 0) */
-}
-.linkDiv{
-    margin:0 auto;
-    position: relative;
-    left:10%;
-}
+        width:100%;
+        height: 10%;
+        display: inline-block;
+        background: #1e1f23;
+        padding:2px;
+       
+    }
 
-a{
-    color: white;
-}
-.contactDiv{
-    width:80%;
-     /* border: 5px solid rgb(0, 255, 0); */
-     margin:0 auto;
-     margin-top: 10px;
+    #inner-two{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        top: 15%;
+        /* background: #121315; */
 
-}
-.innerContactDiv{
-    margin:0 auto;
-     /* border: 5px solid rgb(255, 102, 0) */
-}
-
-.ContactSection ,li{
-    margin:0 auto;
-    color:white;
-    list-style: none;
-   
       
+  
+    }
+ h2{
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 4.2vw;
+    }
+    /* skills */
+    .content-skills{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(255, 255, 255, 0.911);
+
+
+    }
+
+     img{
+        position: relative;
+        top:15%;
+         width:15%;
+         columns: 2;
+         margin:0px;
+     }
+     .listmain{
+         position: relative;
+         top:15%;
+         list-style: none;
+         columns: 2;
+         margin: 0 auto;
+         width: 80%;
+         font-size: 3.2vw;
+
+     }
+
+     .listmain > li{
+         margin-top: 3px;
+
+     }
+  
+  /*  */
+
+  .image > img{
+    width:100%;
 }
+#three{
+    padding: 5px;
+  width:100%;
+  /* border-style: solid;
+  border-color: rgb(30, 255, 0); */
+}
+.spotlight{
+  margin:0 auto;
+  width:80%;
+  padding:10px;
+  margin-bottom: 20px;
+ 
+  
+
+}
+.spotlight:nth-child(odd){
+    background-color: rgb(5, 3, 3);
+}
+.inner > h3{
+   font-size: 3.5vw;
+}
+.inner >p{
+  font-size: 2.9vw;
+}
+.btn-primary{
+  font-size: 1.9vw;
+
+}
+.spotlight:nth-child(odd){
+    background-color: rgba(5, 3, 3, 0.719);
+}
+.spotlight:nth-child(even){
+    background-color: rgba(66, 61, 61, 0.719);
+}
+ 
+
+  
+  
 
 
 
@@ -416,292 +499,313 @@ a{
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px){
-    .outerDiv{
-        /* background-color: grey; */
-    
-    }
-    .innerDiv{
-        width:90%;
-        margin:0 auto;
-    } 
-   .nameDiv{
-    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
-    background-size: cover;
-    height:600px;
-    border: 5px solid rgb(255, 253, 253);
-    border-radius: 30px;
-
-   }
-    .headerName{
-        text-align: right;
-        font-family: sans-serif;
-        font-size: bolder;
+    .inner{
         position: relative;
-        top:5%;
-        right:0.5em;
-    }
-    .aboutMe{
-        color:white;
-        width: 55%;
-        font-size: 2.8vw;
-        text-align: left;
-        position: relative;
-        top:20px;
-        left:20px;
+        top:0px;
 
-    }
-     /* skills */
-     .outerSubDiv{
-        background-color: darkgrey;
         width:80%;
-        border-radius: 10px;
-        height: 60px;
-        background-color: rgb(26, 23, 23);
         margin:0 auto;
-    }
     
-    .innerSubDiv{
-        width:40%;
-        position: relative;
-        top:20%;
-        border-radius: 10px;
-        background-color: rgba(58, 53, 53, 0.808);
-        margin:0 auto;
     }
-    .itemListed{
-        color:white;
+
+
+    .name-Title{
+        /* font-weight: 700;
+        color: #FFF;
         text-align: center;
-    }
-     .skillDiv{
-        border: 5px solid rgb(99, 95, 95);
-        border-radius: 30px;
-        margin:0 auto;
-        height: 600px;
-        background-color: rgba(58, 53, 53, 0.808);
-        margin-top: 20px;
-        box-shadow: 0 8px 6px -6px black;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: inherit;
     
+
     }
-    #skillset{
-        position: relative;
-        top:25%;
-        width:80%;
-        color:white;
-        list-style: none;
-        columns: 2;
-        font-size: 3.5em;
-        margin:0 auto;
-        
+    .name-Title span{
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 300;
+        font-size: 1rem;
     }
-    .projectDiv{
-        border: 5px solid rgba(99, 95, 95, 0.062);
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-       justify-content: center;
-       flex-flow: row wrap;
-        
+    .aboutme{
+        background-color: rgba(255, 255, 255, 0.911);
+
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(2, 2, 2);
+    margin:0;
+    padding:1.8rem;
     }
-    .modalDiv{
-        width:33%;
-        margin:0 auto;
-        margin-top: 20px;
-        border-radius: 30px;
-        min-height: 350px;
-        padding: 8px;
-        background-color: rgba(58, 53, 53, 0.808);
-        border: 5px solid rgb(99, 95, 95); 
-    }
-    .imagDiv{
-        /* border: 5px solid rgb(209, 22, 169); */
-        width:75%;
-        margin:0 auto;
-    }
-    .modalDivIMG{
+    .content{
+        background-color: aliceblue;
         width:100%;
-        /* border: 5px solid rgb(0, 255, 0) */
+        min-height: 5rem;
+        /* padding:0.033rem; */
     }
-    .linkDiv{
-        margin:0 auto;
-        position: relative;
-        left:10%;
-    }
-    
-    a{
-        color: white;
-    }
-    .contactDiv{
-        width:80%;
-         /* border: 5px solid rgb(0, 255, 0); */
-         margin:0 auto;
-         margin-top: 10px;
-    
-    }
-    .innerContactDiv{
-        margin:0 auto;
-         /* border: 5px solid rgb(255, 102, 0) */
-    }
-    
-    .ContactSection ,li{
-        margin:0 auto;
-        color:white;
-        list-style: none;
+       /* next section */
+     /* next section */
+     #two{
+ 
+        width:100%;
+        height: 10%;
+        display: inline-block;
+        background: #1e1f23;
+        padding:2px;
        
-          
     }
-    
-    
-    
 
-
-}
-
-@media all and (min-width: 1280px) and (max-width: 2200px){
-    .outerDiv{
-        /* background-color: grey; */
-    
-    }
-    .innerDiv{
-        width:90%;
-        margin:0 auto;
-    } 
-   .nameDiv{
-    background-image:url('https://wallpaperplay.com/walls/full/d/7/4/36888.jpg');
-    background-size: cover;
-    height:800px;
-    border: 5px solid rgb(99, 95, 95);
-    border-radius: 30px;
-
-   }
-    .headerName{
-        text-align: right;
-        font-family: sans-serif;
-        font-size: bolder;
+    #inner-two{
         position: relative;
-        top:5%;
-        color: white;
-        font-size: 3.2vw;
-        right:0.5em;
-    }
-    .aboutMe{
-        color:white;
-        width: 70%;
-        height: 20%;
-        font-size: 2.8vw;
-        text-align: left;
-        position: relative;
-        top:20px;
-        left:20px;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        top: 15%;
+        /* background: #121315; */
 
+      
+  
     }
-     /* skills */
-     .outerSubDiv{
-        background-color: darkgrey;
-        width:80%;
-        border-radius: 10px;
-        height: 60px;
-        background-color: rgb(26, 23, 23);
-        margin:0 auto;
-    }
-    
-    .innerSubDiv{
-        width:40%;
-        position: relative;
-        top:20%;
-        border-radius: 10px;
-        background-color: rgba(58, 53, 53, 0.808);
-        margin:0 auto;
-    }
-    .itemListed{
-        color:white;
+ h2{
         text-align: center;
+        vertical-align: baseline;
+        font-size: 4.2vw;
     }
-     .skillDiv{
-        background-color: rgba(58, 53, 53, 0.808);
-        border: 5px solid rgb(99, 95, 95); 
-        border-radius: 30px;
-        margin:0 auto;
-        height: 600px;
-        margin-top: 20px;
-        box-shadow: 0 8px 6px -6px black;
-    
+    /* skills */
+    .content-skills{
+        width: 100%;
+        height: 60%;
+        background-color: rgba(255, 255, 255, 0.911);
+
+
     }
-    #skillset{
+
+     img{
         position: relative;
-        top:25%;
-        width:80%;
-        color:white;
+        top:15%;
+         width:15%;
+         columns: 2;
+         margin:0px;
+     }
+     .listmain{
+         position: relative;
+         top:15%;
+         list-style: none;
+         columns: 2;
+         margin: 0 auto;
+         width: 80%;
+         font-size: 3.2vw;
 
-        list-style: none;
-        columns: 2;
-        font-size: 3.5em;
-        margin:0 auto;
-        
-    }
-.projectDiv{
-    border: 5px solid rgba(99, 95, 95, 0);
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-   justify-content: center;
-   flex-flow: row wrap;
+     }
+
+     .listmain > li{
+         margin-top: 3px;
+
+     }
+     /*  */
     
-}
-.modalDiv{
-    width:33%;
-    margin:0 auto;
-    margin-top: 20px;
-    border-radius: 30px;
-    padding: 8px;
-    min-height: 350px;
-    background-color: rgba(58, 53, 53, 0.808);
-    border: 5px solid rgb(99, 95, 95); 
-}
-.imagDiv{
-    /* border: 5px solid rgb(209, 22, 169); */
-    width:75%;
-    margin:0 auto;
-}
-.modalDivIMG{
-    width:100%;
-    /* border: 5px solid rgb(0, 255, 0) */
-}
-
- .linkDiv{
-    margin:0 auto;
-    position: relative;
-    left:10%;
-}
-
-a{
-    color: white;
-}
-.ContactSection ,li{
-    margin:0 auto;
-    color:white;
-    list-style: none;
+    .image > img{
+        width:100%;
+    }
+    #three{
+      padding: 5px;
+      width:100%;
    
-      
-}
-.contactDiv{
-    width:80%;
-     /* border: 5px solid rgb(0, 255, 0); */
-     margin:0 auto;
-     margin-top: 10px;
+      display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .spotlight{
+      margin:0 auto;
+      flex:  auto;
+    height:auto;
+      width:33%;
+      padding:10px;
+      margin-bottom: 20px;
+
+    }
+    .spotlight:nth-child(odd){
+        background-color: rgb(5, 3, 3);
+    }
+    .inner > h3{
+       font-size: 2.5vw;
+    }
+    .inner >p{
+      font-size: 1.9vw;
+    }
+    .btn-primary{
+      font-size: 1.9vw;
+    
+    }
+    .spotlight:nth-child(odd){
+        background-color: rgba(5, 3, 3, 0.719);
+    }
+    .spotlight:nth-child(even){
+        background-color: rgba(66, 61, 61, 0.719);
+    }
+  
+ 
+  
+  
+    
+    
+
 
 }
-.innerContactDiv{
-    margin:0 auto;
-     /* border: 5px solid rgb(255, 102, 0) */
-}
 
-.ContactSection ,li{
-    margin:0 auto;
-    color:white;
-    list-style: none;
-   
+@media all and (min-width: 1280px) and (max-width: 3200px){
+
+    .inner{
+        position: relative;
+        top:0px;
+        width:65%;
+        margin:0 auto;
+    
+    }
+
+
+    .name-Title{
+        /* font-weight: 700;
+        color: #FFF;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: inherit;
+    
+
+    }
+    .name-Title span{
+        color: rgba(255, 255, 255, 0.65);
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    .aboutme{
+    background-color: rgba(240, 248, 255, 0.808);
+    font-size: 1.8vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(2, 2, 2);
+    margin:0;
+    padding:1.8rem;
+    }
+    .content{
+        background-color: aliceblue;
+        width:100%;
+        min-height: 5rem;
+        /* padding:0.033rem; */
+    }
+       /* next section */
+       /* next section */
+    #two{
+
+        width:100%;
+        height: 10%;
+        display: inline-block;
+        background: #1e1f23;
+        padding:2px;
+       
+    }
+
+    #inner-two{
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        top: 15%;
+        /* background: #121315; */
+
       
-}
+  
+    }
+ h2{
+        text-align: center;
+        vertical-align: baseline;
+        font-size: 4.2vw;
+    }
+    /* skills */
+    .content-skills{
+        width: 100%;
+        height: 60%;
+        
+        background-color: rgba(240, 248, 255, 0.808);
+
+    }
+
+     img{
+        position: relative;
+        top:15%;
+         width:15%;
+         columns: 2;
+         margin:0px;
+     }
+     .listmain{
+         position: relative;
+         top:15%;
+         list-style: none;
+         columns: 2;
+         font-weight: bolder;
+         margin: 0 auto;
+         width: 80%;
+         font-size: 2.5vw;
+
+     }
+
+     .listmain > li{
+         margin-top: 3px;
+
+     }
+     .image > img{
+        width:100%;
+    }
+    #three{
+      padding: 5px;
+      width:100%;
+      display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .spotlight{
+      margin:0 auto;
+      flex:  auto;
+    height:auto;
+      width:33%;
+      padding:10px;
+      margin-bottom: 20px;
+     
+    }
+    .spotlight:nth-child(odd){
+        background-color: rgb(5, 3, 3);
+    }
+    .inner > h3{
+       font-size: 2.5vw;
+    }
+    .inner >p{
+      font-size: 1.1vw;
+    }
+    .btn-primary{
+      font-size: 1.9vw;
+    
+    }
+    .spotlight:nth-child(odd){
+        background-color: rgba(5, 3, 3, 0.719);
+    }
+    .spotlight:nth-child(even){
+        background-color: rgba(66, 61, 61, 0.719);
+    }
+ 
+  
+  
 
 
 
