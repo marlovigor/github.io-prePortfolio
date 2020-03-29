@@ -61,6 +61,15 @@ h1,h2,h3,p{
 ul{
     list-style: none;
 }
+.spotlight a {
+    color:red;
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 1.4vw;
+    
+}
 
 
 
