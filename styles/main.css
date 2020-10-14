@@ -62,10 +62,10 @@ ul{
     list-style: none;
 }
 .spotlight a {
-    color:red;
-    background-color: white;
+    color:rgb(223, 221, 221);
+    background-color: rgb(38, 93, 138);
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: bolder;
     font-size: 1.4vw;
     
