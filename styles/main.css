@@ -155,7 +155,7 @@ ul{
      img{
         position: relative;
         top:15%;
-         width:15%;
+         width:5%;
          columns: 2;
          margin:0px;
      }
@@ -296,7 +296,7 @@ ul{
      img{
         position: relative;
         top:15%;
-         width:15%;
+        width:5%;
          columns: 2;
          margin:0px;
      }
@@ -438,8 +438,8 @@ ul{
 
      img{
         position: relative;
-        top:15%;
-         width:15%;
+        top:4px;
+         width:6%;
          columns: 2;
          margin:0px;
      }
@@ -592,8 +592,8 @@ ul{
 
      img{
         position: relative;
-        top:15%;
-         width:15%;
+        top:4px;
+        width:8%;
          columns: 2;
          margin:0px;
      }
