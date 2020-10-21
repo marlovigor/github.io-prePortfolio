@@ -211,6 +211,27 @@ ul{
 }
 .spotlight:nth-child(even){
     background-color: rgba(66, 61, 61, 0.719);
+
+}
+
+.projectTools {
+    margin:0px;
+    position: relative;
+    top:-15px;
+    color: aliceblue;
+    float: right;
+    font-size: 0.2rem;
+    list-style: none;
+    
+}
+.projectTools >li{
+    display: inline;
+}
+
+.projectTools >h3{
+    margin-bottom : 3px;
+    font-weight: bolder;
+    font-size: 0.6rem;
 }
  
 }
@@ -351,6 +372,27 @@ ul{
 .spotlight:nth-child(even){
     background-color: rgba(66, 61, 61, 0.719);
 }
+
+
+.projectTools {
+    margin:0px;
+    position: relative;
+    top:-30px;
+    color: aliceblue;
+    float: right;
+    font-size: 0.6rem;
+    list-style: none;
+    
+}
+.projectTools >li{
+    display: inline;
+}
+
+.projectTools >h3{
+    margin-bottom : 3px;
+    font-weight: bolder;
+    font-size: 0.6rem;
+}
  
   
 
@@ -458,6 +500,12 @@ ul{
          margin-top: 3px;
 
      }
+
+
+     .projectTools >li{
+         color: aliceblue;
+         
+     }
   
   /*  */
 
@@ -497,6 +545,27 @@ ul{
 }
 .spotlight:nth-child(even){
     background-color: rgba(66, 61, 61, 0.719);
+}
+ 
+
+.projectTools {
+    margin:0px;
+    position: relative;
+    top:-30px;
+    color: aliceblue;
+    float: right;
+    font-size: 1.7vw;
+    list-style: none;
+    
+}
+.projectTools >li{
+    display: inline;
+}
+
+.projectTools >h3{
+    margin-bottom : 3px;
+    font-weight: bolder;
+    font-size: 1.2vw;
 }
  
 
