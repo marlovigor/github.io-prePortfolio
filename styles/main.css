@@ -1,8 +1,8 @@
 
 
 body{
-    /* background-image: url('https://images.pond5.com/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg')  0 0 / cover; */
-    background-color: blue;
+    background-image: url('https://images.pond5.com/space-travelling-speed-light-4k-footage-089754516_prevstill.jpeg')  0 0 / cover;
+    /* background-color: blue; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
